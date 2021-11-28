@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_accent</item>
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/color_accent</item>
+        <item name="android:navigationBarColor">@color/color_accent</item>
+    </style>
+<!--    <style name="AppTheme" parent="Theme.MaterialComponents">-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/color_accent</item>-->
+<!--        <item name="windowActionBar">false</item>-->
+<!--        <item name="colorPrimaryDark">@color/color_accent</item>-->
+<!--        <item name="colorAccent">@color/color_accent</item>-->
+
+<!--    </style>-->
+    <style name="SplashTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+        <item name="android:navigationBarColor">@color/color_accent</item>
+        <item name="android:statusBarColor">@color/white</item>
+
+    </style>
+
+
+</resources>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "669539606829",
+    "firebase_url": "https://qusystem-528ea-default-rtdb.firebaseio.com",
+    "project_id": "qusystem-528ea",
+    "storage_bucket": "qusystem-528ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669539606829:android:2e66bec004a1666a8db3a4",
+        "android_client_info": {
+          "package_name": "com.android.apps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669539606829-fnr3t46l6j2ujip7a0q1qbd0fdnirec0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJZhkb7bXO4utdNaNt4DiGjsiIJlJuV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669539606829-fnr3t46l6j2ujip7a0q1qbd0fdnirec0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669539606829:android:c40ec92071fb57268db3a4",
+        "android_client_info": {
+          "package_name": "com.example.sss_capstone_project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669539606829-fnr3t46l6j2ujip7a0q1qbd0fdnirec0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNJZhkb7bXO4utdNaNt4DiGjsiIJlJuV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669539606829-fnr3t46l6j2ujip7a0q1qbd0fdnirec0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

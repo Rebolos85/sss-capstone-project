@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">sss-capstone-project</string>
+    <string name="label_scan_qr_code">SCAN QR CODE</string>
+
+    <string name="loading_state">Loading</string>
+    <string name="label_state_success">Success</string>
+    <string name="code_format">Code Format</string>
+    <string name="label_dashboard">Dashboard</string>
+
+    <string name="label_us">A Queue Management System is a system that manages the customer’s waiting experience throughout their entire journey, from pre-service to post-service. The solution can contain either or both software and hardware that help businesses to facilitate the customer\'s access to service, to plan and manage customer flow and staff, and to gather data to improve the customer experience.</string>
+    <string name="label_about_us">About us</string>
+    <string name="label">About us</string>
+</resources>

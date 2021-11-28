@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentFirstScreen">
+
+    <fragment
+        android:id="@+id/fragmentFirstScreen"
+        android:name="com.example.sss_capstone_project.view.fragment.FragmentChooseScreen"
+        android:label="QSystem">
+        <action
+            android:id="@+id/action_fragmentFirstScreen_to_scanQrFragment"
+            app:destination="@id/scanQrFragment" />
+        <action
+            android:id="@+id/action_fragmentFirstScreen_to_dashboardFragment"
+            app:destination="@id/dashboardFragment" />
+        <action
+            android:id="@+id/action_fragmentFirstScreen_to_fragmentAboutUs"
+            app:destination="@id/fragmentAboutUs" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/scanQrFragment"
+        android:name="com.example.sss_capstone_project.view.fragment.ScanQrFragment"
+        android:label="ScanQrFragment">
+        <action
+            android:id="@+id/action_scanQrFragment_to_fragmentQrResult"
+            app:destination="@id/fragmentQrResult" />
+    </fragment>
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.example.sss_capstone_project.view.fragment.DashboardFragment"
+        android:label="DashboardFragment" />
+    <fragment
+        android:id="@+id/fragmentQrResult"
+        android:name="com.example.sss_capstone_project.view.fragment.FragmentQrResult"
+        android:label="FragmentQrResult">
+        <argument
+            android:name="user_qr_code_result"
+            app:argType="com.example.sss_capstone_project.model.response.UserResponse" />
+        <action
+            android:id="@+id/action_fragmentQrResult_to_scanQrFragment"
+            app:popUpTo="@id/scanQrFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/scanQrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAboutUs"
+        android:name="com.example.sss_capstone_project.view.fragment.FragmentAboutUs"
+        android:label="About Us" />
+</navigation>
